@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Lato sans-serif;
+}
+.chat{
+  border: 1px solid black;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1200px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  float: right;
+}
+.users{
+  display: inline-block;
+  float: right;
+  border-left: 1px solid black;
+  padding: 15px;
+}
+.users h3{
+  margin-top: 0;
+}
+.messages{
+  padding: 15px;
+}
+.msg{
+ padding-left: 15px;
+ font-size: 1.2em;
+ font-weight: bold;
+ position: relative;
+
+  &_time{
+    font-style: italic;
+  }
+  &_name{
+    color: blue;
+    padding-left: 15px;
+    font-weight: bold;
+  }
+  &_input{
+    position: absolute;
+    bottom:15px;
+    left: 15px;
+    width: 50%;
+
+  }
+}
